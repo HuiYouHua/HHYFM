@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-HHYFM/Pods-HHYFM-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/HHYFMBase/HHYFMBase.framework
+${BUILT_PRODUCTS_DIR}/HHYFMMain/HHYFMMain.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

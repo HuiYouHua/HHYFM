@@ -1,0 +1,13 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/HuiYouHua/HHYSpecs.git'
+
+platform :ios, '9.0'
+
+target 'HHYFM' do
+    use_frameworks!
+        
+pod 'HHYFMBase'
+#pod 'HHYFMBase', :subspecs => ['Base', 'Category','Tool']
+pod 'HHYFMMain'
+end

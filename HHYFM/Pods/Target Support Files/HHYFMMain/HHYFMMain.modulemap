@@ -1,0 +1,6 @@
+framework module HHYFMMain {
+  umbrella header "HHYFMMain-umbrella.h"
+
+  export *
+  module * { export * }
+}

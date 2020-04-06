@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HHYFMBase (0.2.0):
+    - HHYFMBase/Base (= 0.2.0)
+    - HHYFMBase/Category (= 0.2.0)
+    - HHYFMBase/Network (= 0.2.0)
+    - HHYFMBase/Tool (= 0.2.0)
+  - HHYFMBase/Base (0.2.0)
+  - HHYFMBase/Category (0.2.0)
+  - HHYFMBase/Network (0.2.0):
+    - AFNetworking (~> 3.2.1)
+    - HHYFMBase/Category
+    - SDWebImage (~> 5.7.0)
+  - HHYFMBase/Tool (0.2.0)
+  - HHYFMMain (0.2.0):
+    - HHYFMBase/Category
+  - SDWebImage (5.7.0):
+    - SDWebImage/Core (= 5.7.0)
+  - SDWebImage/Core (5.7.0)
+
+DEPENDENCIES:
+  - HHYFMBase
+  - HHYFMMain
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - SDWebImage
+  https://github.com/HuiYouHua/HHYSpecs.git:
+    - HHYFMBase
+    - HHYFMMain
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HHYFMBase: 5a1e818d14693f71a88020d0af280e0f098073e0
+  HHYFMMain: f59e3d4ebc10d6cc0f9ee4f77f07f535a71c3e6a
+  SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
+
+PODFILE CHECKSUM: f9fa07a1b16afc23724285b966f19f4946f93e15
+
+COCOAPODS: 1.9.1

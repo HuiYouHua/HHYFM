@@ -3,19 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3525A5842430EC0E006F9383 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A57E2430EC0E006F9383 /* UIImage+XMGImage.m */; };
-		3525A5852430EC0E006F9383 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A57F2430EC0E006F9383 /* CALayer+PauseAimate.m */; };
-		3525A5862430EC0E006F9383 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A5822430EC0E006F9383 /* UIView+XMGLayout.m */; };
-		3525A5952430EC2B006F9383 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A58B2430EC2B006F9383 /* XMGTabBarController.m */; };
-		3525A5962430EC2B006F9383 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A58C2430EC2B006F9383 /* XMGNavigationController.m */; };
-		3525A5972430EC2B006F9383 /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A58E2430EC2B006F9383 /* XMGNavBar.m */; };
-		3525A5982430EC2B006F9383 /* XMGMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3525A58F2430EC2B006F9383 /* XMGMiddleView.xib */; };
-		3525A5992430EC2B006F9383 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A5902430EC2B006F9383 /* XMGTabBar.m */; };
-		3525A59A2430EC2B006F9383 /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A5942430EC2B006F9383 /* XMGMiddleView.m */; };
 		3525A59F2430EE8E006F9383 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A59C2430EE8E006F9383 /* TestVC.m */; };
 		3525A5A02430EE8E006F9383 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3525A59E2430EE8E006F9383 /* TestVC2.m */; };
 		356118472430D649005F2350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3561183A2430D649005F2350 /* Assets.xcassets */; };
@@ -23,26 +14,10 @@
 		3561184B2430D649005F2350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356118432430D649005F2350 /* main.m */; };
 		3561184C2430D649005F2350 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356118442430D649005F2350 /* AppDelegate.m */; };
 		3561184F2430D6EC005F2350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561183D2430D649005F2350 /* Main.storyboard */; };
+		57BCD24D9E6C521CD50531AB /* Pods_HHYFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D585AA5687C3F72EB71ED475 /* Pods_HHYFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3525A57E2430EC0E006F9383 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
-		3525A57F2430EC0E006F9383 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
-		3525A5802430EC0E006F9383 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
-		3525A5812430EC0E006F9383 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
-		3525A5822430EC0E006F9383 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
-		3525A5832430EC0E006F9383 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		3525A5892430EC2B006F9383 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
-		3525A58A2430EC2B006F9383 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
-		3525A58B2430EC2B006F9383 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
-		3525A58C2430EC2B006F9383 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
-		3525A58E2430EC2B006F9383 /* XMGNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
-		3525A58F2430EC2B006F9383 /* XMGMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGMiddleView.xib; sourceTree = "<group>"; };
-		3525A5902430EC2B006F9383 /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
-		3525A5912430EC2B006F9383 /* XMGMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMiddleView.h; sourceTree = "<group>"; };
-		3525A5922430EC2B006F9383 /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
-		3525A5932430EC2B006F9383 /* XMGNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavBar.h; sourceTree = "<group>"; };
-		3525A5942430EC2B006F9383 /* XMGMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMiddleView.m; sourceTree = "<group>"; };
 		3525A59B2430EE8E006F9383 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		3525A59C2430EE8E006F9383 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		3525A59D2430EE8E006F9383 /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
@@ -55,6 +30,9 @@
 		356118432430D649005F2350 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		356118442430D649005F2350 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		356118452430D649005F2350 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3679FF278573DABC8CADAD26 /* Pods-HHYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYFM.debug.xcconfig"; path = "Target Support Files/Pods-HHYFM/Pods-HHYFM.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD8A37E3340CB2D346405B9 /* Pods-HHYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYFM.release.xcconfig"; path = "Target Support Files/Pods-HHYFM/Pods-HHYFM.release.xcconfig"; sourceTree = "<group>"; };
+		D585AA5687C3F72EB71ED475 /* Pods_HHYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BCD24D9E6C521CD50531AB /* Pods_HHYFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,56 +50,15 @@
 		3525A57C2430EC0E006F9383 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				3525A57D2430EC0E006F9383 /* Category */,
 			);
 			path = BaseClasses;
-			sourceTree = "<group>";
-		};
-		3525A57D2430EC0E006F9383 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				3525A5832430EC0E006F9383 /* CALayer+PauseAimate.h */,
-				3525A57F2430EC0E006F9383 /* CALayer+PauseAimate.m */,
-				3525A5812430EC0E006F9383 /* UIImage+XMGImage.h */,
-				3525A57E2430EC0E006F9383 /* UIImage+XMGImage.m */,
-				3525A5802430EC0E006F9383 /* UIView+XMGLayout.h */,
-				3525A5822430EC0E006F9383 /* UIView+XMGLayout.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		3525A5872430EC2B006F9383 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				3525A5882430EC2B006F9383 /* Controller */,
-				3525A58D2430EC2B006F9383 /* View */,
 			);
 			path = MainModule;
-			sourceTree = "<group>";
-		};
-		3525A5882430EC2B006F9383 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3525A58A2430EC2B006F9383 /* XMGTabBarController.h */,
-				3525A58B2430EC2B006F9383 /* XMGTabBarController.m */,
-				3525A5892430EC2B006F9383 /* XMGNavigationController.h */,
-				3525A58C2430EC2B006F9383 /* XMGNavigationController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3525A58D2430EC2B006F9383 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3525A5932430EC2B006F9383 /* XMGNavBar.h */,
-				3525A58E2430EC2B006F9383 /* XMGNavBar.m */,
-				3525A5922430EC2B006F9383 /* XMGTabBar.h */,
-				3525A5902430EC2B006F9383 /* XMGTabBar.m */,
-				3525A5912430EC2B006F9383 /* XMGMiddleView.h */,
-				3525A5942430EC2B006F9383 /* XMGMiddleView.m */,
-				3525A58F2430EC2B006F9383 /* XMGMiddleView.xib */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3561180E2430B4EF005F2350 = {
@@ -128,6 +66,8 @@
 			children = (
 				356118192430B4EF005F2350 /* HHYFM */,
 				356118182430B4EF005F2350 /* Products */,
+				BAC61BF63C490B154B6AFA8A /* Pods */,
+				4B65B78E9614505FA3B4FB85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +139,23 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		4B65B78E9614505FA3B4FB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D585AA5687C3F72EB71ED475 /* Pods_HHYFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC61BF63C490B154B6AFA8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3679FF278573DABC8CADAD26 /* Pods-HHYFM.debug.xcconfig */,
+				8BD8A37E3340CB2D346405B9 /* Pods-HHYFM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356118302430B4F0005F2350 /* Build configuration list for PBXNativeTarget "HHYFM" */;
 			buildPhases = (
+				CF482C0C5B5FFFDA0F34ED71 /* [CP] Check Pods Manifest.lock */,
 				356118132430B4EF005F2350 /* Sources */,
 				356118142430B4EF005F2350 /* Frameworks */,
 				356118152430B4EF005F2350 /* Resources */,
+				77ACFE5868A59971E6C95219 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3525A5982430EC2B006F9383 /* XMGMiddleView.xib in Resources */,
 				3561184F2430D6EC005F2350 /* Main.storyboard in Resources */,
 				356118472430D649005F2350 /* Assets.xcassets in Resources */,
 				356118482430D649005F2350 /* LaunchScreen.storyboard in Resources */,
@@ -266,23 +224,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77ACFE5868A59971E6C95219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HHYFM/Pods-HHYFM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HHYFM/Pods-HHYFM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HHYFM/Pods-HHYFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF482C0C5B5FFFDA0F34ED71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHYFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		356118132430B4EF005F2350 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3561184C2430D649005F2350 /* AppDelegate.m in Sources */,
-				3525A5992430EC2B006F9383 /* XMGTabBar.m in Sources */,
-				3525A5862430EC0E006F9383 /* UIView+XMGLayout.m in Sources */,
 				3525A5A02430EE8E006F9383 /* TestVC2.m in Sources */,
 				3525A59F2430EE8E006F9383 /* TestVC.m in Sources */,
-				3525A5852430EC0E006F9383 /* CALayer+PauseAimate.m in Sources */,
-				3525A5962430EC2B006F9383 /* XMGNavigationController.m in Sources */,
-				3525A5952430EC2B006F9383 /* XMGTabBarController.m in Sources */,
-				3525A5972430EC2B006F9383 /* XMGNavBar.m in Sources */,
-				3525A59A2430EC2B006F9383 /* XMGMiddleView.m in Sources */,
 				3561184B2430D649005F2350 /* main.m in Sources */,
-				3525A5842430EC0E006F9383 /* UIImage+XMGImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +412,7 @@
 		};
 		356118312430B4F0005F2350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3679FF278573DABC8CADAD26 /* Pods-HHYFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -443,6 +436,7 @@
 		};
 		356118322430B4F0005F2350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD8A37E3340CB2D346405B9 /* Pods-HHYFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
